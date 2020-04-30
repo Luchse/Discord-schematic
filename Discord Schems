@@ -18,7 +18,6 @@
   --error: #f30c0c;
   --warning: #e7a418;
 }
-}
 
 /* == Theme core == */
   /* app font */
