@@ -1,38 +1,59 @@
+//META{"name":"Xeno","description":"Discord Xeno\nYou can change colors & images in the theme file\nHelp: https://discord.gg/PZdnCVD","author":"Spectra","version":"AutoUpdate"}*//
+/*
+██╗  ██╗███████╗███╗   ██╗ ██████╗
+╚██╗██╔╝██╔════╝████╗  ██║██╔═══██╗
+ ╚███╔╝ █████╗  ██╔██╗ ██║██║   ██║
+ ██╔██╗ ██╔══╝  ██║╚██╗██║██║   ██║
+██╔╝ ██╗███████╗██║ ╚████║╚██████╔╝
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝
+
+###################################################################################################
+Xeno Theme for Better Discord
+
+The author (Spectra#7698) retains full rights of this code.
+You are not allowed to redistribute this theme or any part of it as your own. That means do not post an edited version of this theme anywhere.
+You are allowed to edit the theme for personal use only.
+If you enjoy using the theme, help spread the word!
+
+!!This theme is meant to be used with the dark version of discord !!
+
+###################################################################################################*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url("C:/Users/samok/AppData/Roaming/BetterDiscord/themes/theme.css");
+@import url("https://codedotspectra.github.io/themes/mini-themes/hljs.css");
+@import url("https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css");
+@import url('https://codedotspectra.github.io/themes/mini-themes/settingsIcons.css');
+
 :root {
-  --backgroundColor: #101010;
-  --backgroundImage: url('https://img4.goodfon.com/original/1920x1080/0/80/materyi-volk-past-klyki-goriashchie-glaza-oboroten-tma-iazyk.jpg');
+  /* Background color */
+  --backgroundColor: #121212;
+
+  /* Background image */
+  --backgroundImage: url('https://imgur.com/uQhQc4w.png');
   --backgroundImageOpacity: .75;
-  --homeButtonImage: url('https://img4.goodfon.com/original/1920x1080/0/80/materyi-volk-past-klyki-goriashchie-glaza-oboroten-tma-iazyk.jpg');
-  --uiGradient1: #f4690d;
-  --uiGradient2: #f8cb16;
-  --customFont: 'Ubuntu';
+
+  /* Home button image */
+  --homeButtonImage: url('https://imgur.com/d9ZnlbX.png');
+
+  /* Theme Colors */
+  --uiGradient1: #707070;
+  --uiGradient2: #707070;
+  /* Text Colors */
   --textNormal: #dcddde;
   --textMuted: #72767d;
-  --textLinks: Orange;
+  --textLinks: Grey;
   --channelsDefault: #e4e4e4;
   --channelsNormal: #d6d6d6;
   --channelsHover: #ebebeb;
   --channelsActive: #fff;
   --channelsMuted: #7d7d7d;
-  --succes: #17e81d;
-  --error: #f30c0c;
-  --warning: #e7a418;
+
+  /* Theme custom font (You need to import the font file first)*/
+  --customFont: 'Ubuntu';
 }
 
-#app-mount::before {
-	content: "I'm sorry but this theme will stop working by 03/05. It has been discontinued. Please use another theme";
-	position: absolute;
-	top: 5px;
-	left: calc(50% - 250px);
-	width: 500px;
-	background-color: rgba(204, 0, 0,.35);
-	border: 1px solid rgba(0,0,0,.3);
-	color: #fff;
-	text-align: center;
-	padding: 10px 15px;
-	border-radius: 8px;
-	z-index: 500000;
-}
+
+
 
 /* == Theme core == */
   /* app font */
